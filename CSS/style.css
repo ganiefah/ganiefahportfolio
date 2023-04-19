@@ -1,0 +1,20 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primaryColor: black;
+    --secondayColor: white;
+    --alternativeColor: grey;
+    --borderColor:#e17e1d;
+    font-family: 'Bebas Neue', cursive;
+}    
+/*  logo */
+#Logo {
+    width: 5rem;
+
+}
