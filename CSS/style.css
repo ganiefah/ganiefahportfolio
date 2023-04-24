@@ -1,17 +1,32 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 /* Universal Selector */
-*{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* root */
 :root{
     --primaryColor: black;
     --secondayColor: white;
     --alternativeColor: grey;
     --borderColor:#e17e1d;
+    --primaryColor: black;
+    --secondaryColor: white;
+    --alternativeColor: grey;
+    --backgroundColor: #4a6178;
+    --homebg--: rgb(107, 100, 100);
+    --green--: green;
+    --awesomecolor--: #617219;
+    --mainBoxShadow--: .5vw .5vw .5vw var(--alternativeColor);
+    --landingPage: .5vw .1vw .5vw var(--gray);
+    --alternativeBoxShadow: 10vw 10vw 15vw 3vw rgb(191, 188, 188) inset;
+    --activeLink: #00b061; 
     font-family: 'Bebas Neue', cursive;
+    
 }    
 /*  logo */
 #Logo {
